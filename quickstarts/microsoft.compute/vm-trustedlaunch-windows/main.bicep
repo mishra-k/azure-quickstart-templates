@@ -3,7 +3,6 @@ param vmName string = 'myTVM'
 
 @description('The OS SKU for the virtual machine. This will pick a fully patched image of the given OS SKU.')
 @allowed([
-  'RS1-EnterpriseN-G2'
   'RS5-EnterpriseN-Standard-G2'
   'RS5-EnterpriseN-G2'
   '19H2-Ent-G2'
